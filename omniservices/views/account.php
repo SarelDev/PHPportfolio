@@ -12,7 +12,8 @@
     <?php include $_SERVER['DOCUMENT_ROOT']."/omniservices/logic/logic_nav.php";?>
 
     <main>
-        <p>This is the main content of the website.</p>
+        <h1>ID: <?php echo $_SESSION["id"];?></h1>
+        <h1>Username: <?php echo $_SESSION["username"];?></h1>
     </main>
 
     <?php include $_SERVER['DOCUMENT_ROOT']."/omniservices/includes/footer.php";?>
